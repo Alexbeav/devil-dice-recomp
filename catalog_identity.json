@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Devil Dice",
+    "id": "SCES-01312",
+    "boot_exe": "SCES_013.12"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "Europe",
+    "players": 2
+  },
+  "rom_identity": {
+    "cue_name": "Devil Dice (Europe) (En,Fr,De,Es,It).cue",
+    "bin_name": "Devil Dice (Europe) (En,Fr,De,Es,It) (Track 01).bin",
+    "track_counts": [
+      12
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 379876224,
+      "md5": "d4d0bf3469319d4f07cd2e2a4bf94e5d",
+      "sha1": "73caf9f72ee957e4146c4bf0feba664945d6aa41",
+      "crc32": "2c65bf7a"
+    },
+    "disc_fp": "2b261a9a621594fc01c1f6d3522cad24c905b1636705eba5c7bfb33c36d8a251"
+  },
+  "exe": {
+    "load_address": "0x80090000",
+    "entry_pc": "0x80093F34",
+    "text_size": "0x00017000",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 259,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
